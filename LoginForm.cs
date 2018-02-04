@@ -16,5 +16,21 @@ namespace Webber_Golden_Paws_Award
         {
             InitializeComponent();
         }
+
+        private void signInButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void createNewAccountLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RegistrationForm registerNewAccount = new RegistrationForm();
+            registerNewAccount.ShowDialog();
+        }
     }
 }
